@@ -6,10 +6,10 @@ $PW= Read-Host -Prompt "Enter Your Database Password"
 $conn= Read-Host -Prompt "Enter Your TNS Name Connection"
 
 
-$UserName= "UD_SAAKETHP"
-$PW= "UD_SAAKETHP"
-$conn= "FREEPDB1"
-$ProjectName= "WebRest"
+#$UserName= "UD_SAAKETHP"
+#$PW= "UD_SAAKETHP"
+#$conn= "FREEPDB1"
+#$ProjectName= "WebRest"
 
 mkdir  ${ProjectName}
 cd  ${ProjectName}
